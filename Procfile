@@ -1,1 +1,1 @@
-worker: npm i -g pm2 && pm2 start haruka.js && pm2 save && pm2 logs
+worker: node . --db 'mongodb://mongo:FmxunWOkJB7rM0ucFgZ0@containers-us-west-86.railway.app:7256'

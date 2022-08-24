@@ -1,1 +1,1 @@
-worker: node . --db 'mongodb://mongo:FmxunWOkJB7rM0ucFgZ0@containers-us-west-86.railway.app:7256'
+worker: npm i -g pm2 && pm2 start . && pm2 save
